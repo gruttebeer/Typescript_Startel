@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dierentuin</title>
+
+    <script src="./dist/animal.js"></script>
+    <script src="./dist/dierentuin.js"></script>
+    <style>
+        body
+        {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .animal
+        {
+            float: left;
+            margin: 20px;
+            padding: 10px;
+            background-color: rgb(67, 184, 87);
+            border: 5px solid blue;
+            border-radius: 10px;
+        }
+        .warning{
+            border-color: rgb(233, 28, 28);
+            background-color: rgba(176, 44, 44, 0.61);
+        }
+        .monkey{
+            background-color: rgb(139, 169, 30);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Dierentuin</h1>
+
+    <button onclick="createMonkey();">Nieuwe Aap</button>
+    <button onclick="createLion();">Nieuwe Leeuw</button>
+    <button onclick="createElephant();">Nieuwe Olifant</button>
+    <button onclick="createTiger();">Nieuwe Tijger</button>
+
+    <button onclick="levelUp();">Level Up!</button>
+
+    <div id="output"></div>
+</body>
+</html>

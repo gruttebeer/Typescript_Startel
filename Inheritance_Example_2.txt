@@ -1,0 +1,13 @@
+Animal
+- name
+- energy
+- eat()
+
+Monkey extends Animal
+- climbTree()
+
+Lion extends Animal
+- roarrrr()
+
+Elephant extends Animal
+- fly()

@@ -1,0 +1,21 @@
+
+Inheritance
+
+
+class Person
+{
+	firstname
+	lastname
+}
+
+// class Employee extends person
+class Employee : person
+{
+	salary
+}
+
+class Student extends Person (Zit ook in person, zit ook in student) (Deze neemt dus al het voorgenoemde mee)
+{
+	grades
+}
+
